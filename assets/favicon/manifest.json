@@ -1,0 +1,28 @@
+{
+  "name": "Dr. Somiya Rani",
+  "short_name": "Dr. Somiya",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/assets/favicon/android-chrome-192x192.webp",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/favicon/android-chrome-512x512.webp",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/favicon/android-chrome-512x512.webp",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#f8f8ff",
+  "background_color": "#f8f8ff",
+  "display": "standalone"
+}
