@@ -1,0 +1,16 @@
+User-agent: mauibot
+Disallow: /
+
+User-agent: semrushbot
+Disallow: /
+
+User-agent: ahrefsbot
+Disallow: /
+
+User-agent: blexbot
+Disallow: /
+
+User-agent: seo spider
+Disallow: /
+
+Sitemap: https://s0miya.github.io/sitemap.xml
