@@ -67,15 +67,14 @@ const onClick = () => {
   }
 
 const updateThemeElement = () => {
-    document
-    .getElementById('github-logo')
-    .src = (theme.value === 'dark')
+  document
+  .querySelectorAll('.github-logo')
+  .forEach(function(currentValue, currentIndex, listObj) {
+    currentValue.src = (theme.value === 'dark')
     ? '/assets/images/icons/github-logo-white.webp'
     : '/assets/images/icons/github-logo.webp'
+      },);
 }
-
-// set early so no page flashes / CSS is made aware
-reflectPreference()
 
 window.onload = () => {
     // set on load so screen readers can see latest value on the button

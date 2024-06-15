@@ -205,6 +205,7 @@ section {
 .project-panel {
     display: flex;
     flex-flow: column;
+    align-items: center;
     justify-content: space-evenly;
     padding: 2.5rem;
     max-width: 40%;
@@ -226,7 +227,18 @@ section {
 }
 
 .project-link {
-    text-align: center;
+    display: flex;
+    flex-flow: row;
+    gap: 1rem;
+    width: fit-content;
+}
+
+.icon-link {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.25rem;
 }
 
 .divider {
@@ -320,6 +332,10 @@ footer {
     .project-panel {
         padding: 1rem;
         max-width: 100vw;
+    }
+
+    .project-link {
+        flex-flow: column;
     }
 
     .footer-message {
