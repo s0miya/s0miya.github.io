@@ -18,6 +18,10 @@ a {
     color: #000000;
 }
 
+.footer-copyright > a {
+    text-decoration: underline;
+}
+
 h4{
     padding: 0px;
     margin-bottom: 5px;
@@ -256,6 +260,13 @@ footer {
 .footer-message {
     font-weight: bold;
     text-align: center;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 0.25rem;
 }
 
 #nav-toggle,
